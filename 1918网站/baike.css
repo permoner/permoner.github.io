@@ -1,0 +1,23 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	width: 80%;
+	background-image: url("pics/asd.jpg");
+	margin: auto;
+	font-size: 25px;
+	font: 
+}
+
+.baike{
+	background-color: #A4A4A4;
+	opacity: 0.9;
+	
+}
+
+h1{
+	font-size: 80px;
+}
+h3{
+	font-size: 50px;
+}
