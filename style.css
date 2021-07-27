@@ -1,40 +1,66 @@
 @charset "utf-8";
-/* CSS Document */
-.comp{
-	font-family:'黑体';
-	text-indent: 3em;
-	font-size: 25px;
-	color:aliceblue;
-	background-color:#ECEDBA;
-	width: 80%;
-	background-image: url("pics/backg.jpg");
-	margin: auto;
+/* CSS Document */		
+		* {
+  box-sizing: border-box;
 }
-.box{
+		body{
+			margin:0;
+		}
+	/*表头*/
+		.header{
+			padding: 60px;
+			text-align: center;
+			background-color: #2980b9;
+			color:white;	
+			font-size:20px;
+		}
+	/*导航栏*/
+		.navbar{
+			display: flex;
+			background-color: #3498db;
+		}
+	/*导航链接*/
+		.navbar a{
+			color: aliceblue;
+			padding:20px 25px;
+			font-size:25px;
+			text-align: center;
+			text-decoration: none
+		}
+	/*被点击*/
+		.navbar a:hover{
+			background-color: orangered;
+			color:black;
+		}
+		
+		.row{
+			display: flex;
+			flex-wrap: wrap;
+			font-size: 20px;
+		}
+		.side{
+			padding: 20px;
+			flex:30%;
+			background-color: #1abc9c;
+			padding: 50px 20px;
+			font-size: 25px;
+			line-height: 50px;
+			text-align: left;
+		}
+		
 	
-	line-height:150%;
-  	border-radius: 25px;
-    font-size: 25px;
-    letter-spacing: 110%;
-    align-content: center;
-    background-color:rgba(134,134,134,0.78);
-	padding: 20px;
-	margin-bottom: 20px;
-	
-}
-.box li{
-	font-size: 30px;
-}
-.box p:first-letter{
-	color:indianred;
-	font-size: 300%;
-}
-.box img{
-    margin-top: -317px;
-    margin-right: -175px;
-    margin-left: -970px;
-    margin-bottom: -579px;
-}
-.box h2{
-	font-size:50px;
-}
+		.main{
+			flex: 70%;
+			font-size: 25px;
+			line-height: 50px;
+			background-color:#f1c40f;
+			padding: 50px 20px;
+		}
+
+		.tail{
+			display: flex;
+			background-color: #86DF00;
+			justify-content:center;
+			padding: 50px;
+		}
+		
